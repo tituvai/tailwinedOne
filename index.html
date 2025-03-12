@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <!-- google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- google Font  -->  
+
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+          --font-titu: "Poppins", "sans-serif"; 
+          --font-sarkar: "Nunito Sans", " sans-serif"; 
+        }
+      </style>
+
+</head>
+<body>
+    
+<h2 class="text-center bg-green-500 text-4xl font-bold text-white pt-[25px] pb-[25px] font-titu">Well Come To Creative It</h2>
+
+<!-- Header Part Start -->
+
+<div class="h-[100px] bg-teal-400 ">
+  <div class="container w-[1200px] m-auto ">
+    <div class="inline-block pt-[25px]"><a href="#"><img src="images/creative.png" alt="creative.png"></a></div>
+    <ul class=" inline-block ml-[100px]">
+      
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Home</a></li>
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Properties </a></li>
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Listings</a></li>
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Blog</a></li>
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Pages</a></li>
+      <li class="inline-block p-[20px] text-2xl text-white font-sarkar font-semebold"><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>                                          
+ <!-- Header Part end -->
+
+<div class="bg-[url(/images/bg.jpg)] pt-[300px] pb-[300px] bg-cover bg-no-repeat bg-center bg-fixed"></div>
+
+<div class="h-[300px] bg-green-700 w-[500px] m-auto mt-[30px]  relative rounded-md mb-[100px]">
+    <div class="h-[150px] w-[150px] rounded-full bg-red-700 absolute top-1/2 left-1/2 -translate-1/2"></div>
+</div>
+
+
+</body>
+</html>
+
